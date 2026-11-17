@@ -40,7 +40,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-          >
+      
              Drink Tracking Calendar
           </a>
 
