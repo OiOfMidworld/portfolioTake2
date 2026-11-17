@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -8,16 +9,20 @@ export default function Home() {
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-          
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://timely-florentine-3ec0a2.netlify.app/"
-            title="A real-time weather dashboard built with React and OpenWeather API"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link 
+            href="/projects/weather-app" 
+            className="text-blue-600 underline font-medium"
           >
-            Weather app 
-          </a>
+            Weather App
+          </Link>
+
+      {/* The Hover Description Box */}
+          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-64 p-3 
+                      bg-gray-900 text-white text-sm rounded-lg shadow-lg 
+                      opacity-0 invisible group-hover:opacity-100 group-hover:visible 
+                      transition-all duration-200 pointer-events-none z-10">
+        A real-time weather dashboard built with React and OpenWeather API.
+          </div>
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="https://djfitz.netlify.app"
