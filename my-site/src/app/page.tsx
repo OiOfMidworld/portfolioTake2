@@ -7,27 +7,28 @@ type LinkItem = {
 const links: LinkItem[] = [
   {
     label: "Weather Compare",
-    href: "https://djfitz.netlify.app",
+    href: "https://timely-florentine-3ec0a2.netlify.app",
     description: "A real-time weather dashboard built with React and OpenWeather API",
   },
   {
     label: "DJ FITZ",
     href: "https://djfitz.netlify.app",
-    description: "Website for a client's DJ business. Built w/ Claude Code assistance",
+    description: "Website for a client's DJ business. Built w/ Claude Code assistance. React, Tailwind, TypeScript",
   },
   {
     label: "Cape Cod Short Term Rentals",
     href: "https://cc-str.streamlit.app/",
-    description: "Pipeline to track short term rentals on Cape Cod",
-  },
-  {
-    label: "Github",
-    href: "https://github.com/OiOfMidworld",
+    description: "End to end data pipeline to track short term rentals on Cape Cod. Uses Python ingestion for three sources: a CSRF-protected web scraper (about 20,900 certificates), the Census ACS API, and MassGIS shapefiles (about 160,000 parcels). Python, PostgreSQL, dbt, Prefect, Streamlit, Plotly, SQLAlchemy, rapidfuzz, Neon",
   },
   {
     label: "Drink Tracking Calendar",
     href: "https://drink-tracker-lv0i.onrender.com",
-    description: "An application to track alcohol intake and journal",
+    description: "An application to track alcohol intake and journal. Python, Flask",
+  },
+    {
+    label: "Github",
+    href: "https://github.com/OiOfMidworld",
+    description: "listed projects are all public and starred. See readme's for additional info"
   },
   {
     label: "Linkedin",
